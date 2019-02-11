@@ -1,0 +1,182 @@
+=============================================
+COP 3502, Spring 2019 - Week #2 Lab Worksheet
+=============================================
+
+Suppose after executing line 108 in bauble.c, memory looks like this:
+
+   0x848   a
+   +-------+
+   | 0x152 |
+   +-------+
+
+   0x152
+   +---------------+
+   |      x: 55    |
+   | before: NULL  |
+   |  after: NULL  |
+   +---------------+
+
+
+1. In the space below, show what memory will look like after executing lines 109
+   and 110. (You may make up memory addresses as needed.)
+
+
+	0x998   b
+   +-------+
+   | 0x445 |
+   +-------+
+
+   0x445
+   +---------------+
+   |      x: 11    |
+   | before: NULL  |
+   |  after: NULL  |
+   +---------------+
+   
+   
+	0x100   c
+   +-------+
+   | 0x230 |
+   +-------+
+
+   0x230
+   +---------------+
+   |      x: 22    |
+   | before: NULL  |
+   |  after: NULL  |
+   +---------------+
+
+2. Next, in the space below, show what memory will look like after executing
+   line 114.
+
+
+	0x998   b
+   +-------+
+   | 0x445 |
+   +-------+
+
+   0x445
+   +---------------+
+   |      x: 11    |
+   | before: 0x100 |
+   |  after: NULL  |
+   +---------------+
+   
+   
+	0x100   c
+   +-------+
+   | 0x230 |
+   +-------+
+
+   0x230
+   +---------------+
+   |      x: 22    |
+   | before: NULL  |
+   |  after: 0x998 |
+   +---------------+
+
+
+
+3. In the space below, show what memory will look like after executing line 115.
+
+   0x848   a
+   +-------+
+   | 0x152 |
+   +-------+
+
+   0x152
+   +---------------+
+   |      x: 55    |
+   | before: NULL  |
+   |  after: 0x100 |
+   +---------------+
+
+
+   0x100   c
+   +-------+
+   | 0x230 |
+   +-------+
+
+   0x230
+   +---------------+
+   |      x: 22    |
+   | before: 0x848 |
+   |  after: NULL  |
+   +---------------+
+
+
+
+
+4. What will be the output of line 121?
+
+	55
+
+
+5. In the diagrams above, show the changes that happen (if any) after executing
+   line 121.
+
+
+
+
+6. What will be the output of line 122?
+
+
+
+
+7. Again, in the diagrams above, show the changes that happen (if any) after
+   executing line 122.
+
+
+
+
+8. In the space below, show what memory will look like after executing line 125.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9. What will be the output of line 128?
+
+
+
+
+10. In the diagrams above, show the changes that happen (if any) after executing
+    line 128.
+
+
+
+
+11. What will be the output of line 129?
+
+
+
+
+12. Again, in the diagrams above, show the changes that happen (if any) after
+    executing line 129.
+
+
+
+
+13. In the space below, show what memory will look like after executing line 136.
+
+
+
+
+
+
+
+
+
+
+
+
+
